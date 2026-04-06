@@ -1,0 +1,5 @@
+{
+    "name": "Experiment with Gemini",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y nodejs npm && pip install django && sudo npm install -g create-react-app"
+}
